@@ -8,7 +8,8 @@ export default {
     extend: {
       colors: {
         'gray': '#00000012',
-        'button-gray': "#CFCFCF"
+        'button-gray': "#CFCFCF",
+        'button-culture': "#0000004f"
 
       }
     },

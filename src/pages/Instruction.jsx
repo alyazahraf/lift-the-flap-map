@@ -4,7 +4,7 @@ import ButtonPrimary from "../components/ButtonPrimary";
 const Instruction = () => {
   return (
     <div className="container-1">
-      <div className=" bg-gray container-2 flex flex-col justify-around">
+      <div className=" container-2 flex flex-col justify-around">
         <h1>Petunjuk</h1>
         <h2>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
@@ -24,7 +24,9 @@ const Instruction = () => {
           quisquam cumque optio totam ducimus hic provident sed ad, commodi
           officiis?
         </h2>
-        <ButtonPrimary />
+        <a href="/profile">
+          <ButtonPrimary />
+        </a>
       </div>
     </div>
   );
