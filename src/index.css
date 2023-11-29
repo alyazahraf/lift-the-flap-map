@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* h1 {
+    @apply text-4xl;
+  } */
+}
+
+@layer components {
+  .container {
+    @apply py-28 px-16 w-screen
+  }
+
+  .container-1 {
+    @apply h-screen p-8 rounded-3xl
+  }
+}
