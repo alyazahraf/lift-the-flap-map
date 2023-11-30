@@ -9,9 +9,12 @@ export default {
       colors: {
         'gray': '#00000012',
         'button-gray': "#CFCFCF",
-        'button-culture': "#0000004f"
-
-      }
+        'button-culture': "#0000004f",
+        'question': '#626262'
+      },
+      borderRadius: {
+        '4xl': '36px',
+      },
     },
   },
   plugins: [],

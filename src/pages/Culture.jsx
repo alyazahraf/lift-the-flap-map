@@ -1,12 +1,11 @@
 import React from "react";
-import { FaAnglesRight } from "react-icons/fa6";
-import { FaAnglesLeft } from "react-icons/fa6";
+import { FaAnglesRight, FaAnglesLeft } from "react-icons/fa6";
 
 const Culture = () => {
   return (
     <div className="container-1">
       <div className="p-8 gap-6 flex flex-col">
-        <h1>Provinsi</h1>
+        <h1>Provinsi Lorem</h1>
         <div className="flex flex-row justify-around">
           <div>
             <div>
@@ -16,10 +15,14 @@ const Culture = () => {
                 height="60px"
                 className="rounded-tl-lg rounded-tr-lg"
               />
-              <div className="button-culture flex flex-row">
-                <label className="title-profile text-white">Makanan</label>
-                <FaAnglesRight className="text-white text-5xl" />
-              </div>
+              <a href="/food">
+                <div className="button-culture">
+                  <label className="title-profile text-white">Makanan</label>
+                  <div>
+                    <FaAnglesRight className="text-white text-5xl" />
+                  </div>
+                </div>
+              </a>
             </div>
           </div>
           <div>
@@ -30,10 +33,12 @@ const Culture = () => {
                 height="600px"
                 className="rounded-tl-lg rounded-tr-lg"
               />
-              <div className="button-culture flex flex-row">
-                <label className="title-profile text-white">Rumah Adat</label>
-                <FaAnglesLeft className="text-white text-5xl" />
-              </div>
+              <a href="/house">
+                <div className="button-culture flex flex-row">
+                  <label className="title-profile text-white">Rumah Adat</label>
+                  <FaAnglesLeft className="text-white text-5xl" />
+                </div>
+              </a>
             </div>
           </div>
         </div>

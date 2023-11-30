@@ -3,11 +3,19 @@
 @tailwind utilities;
 
 .container-1 {
-  @apply py-28 px-16
+  @apply py-10 px-16
 }
 
 .container-2 {
   @apply p-8 rounded-3xl bg-gray gap-6 flex flex-col
+}
+
+.container-test {
+  @apply pt-8 pb-20 px-32 rounded-3xl bg-gray gap-6 flex flex-col
+}
+
+.container-culture {
+  @apply flex flex-row gap-20 bg-button-gray rounded-tl-3xl rounded-tr-3xl
 }
 
 h1 {
@@ -23,5 +31,5 @@ h2 {
 }
 
 .button-culture {
-  @apply flex flex-col bg-button-culture rounded-bl-lg rounded-br-lg px-10 py-1
+  @apply flex flex-row bg-button-culture rounded-bl-3xl rounded-br-3xl px-10 py-1 justify-between cursor-pointer items-center
 }
