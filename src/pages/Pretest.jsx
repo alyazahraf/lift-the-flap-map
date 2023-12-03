@@ -3,7 +3,7 @@ import ButtonPrimary from "../components/ButtonPrimary";
 
 const Pretest = () => {
   return (
-    <div className="container-1">
+    <div className="py-8 px-20">
       <div className="container-2">
         <h1>Pretest</h1>
         <p>

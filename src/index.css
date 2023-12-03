@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .container-1 {
-  @apply py-10 px-16
+  @apply py-20 px-16 flex flex-col items-center
 }
 
 .container-2 {
@@ -11,7 +11,7 @@
 }
 
 .container-test {
-  @apply pt-8 pb-20 px-32 rounded-3xl bg-gray gap-6 flex flex-col
+  @apply px-[10rem] rounded-3xl bg-gray gap-6 flex flex-col
 }
 
 .container-culture {
@@ -23,11 +23,11 @@ h1 {
 }
 
 h2 {
-  @apply text-2xl font-bold
+  @apply text-xl font-bold
 }
 
 .title-profile {
-  @apply text-5xl font-bold
+  @apply text-3xl font-bold
 }
 
 .button-culture {

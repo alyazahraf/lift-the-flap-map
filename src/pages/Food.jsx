@@ -5,20 +5,20 @@ import { FaAnglesLeft } from "react-icons/fa6";
 const Food = () => {
   return (
     <div className="container-1">
-      <div className="p-8 gap-6 flex flex-col">
+      <div className=" px-[8rem] gap-6 flex flex-col">
         <h1>Provinsi Lorem</h1>
         {/* <div> */}
         <div>
           <div className="container-culture ">
             <img
               src="https://lumiere-a.akamaihd.net/v1/images/5c239685ecbea2c12fcb8ee661a04d0a9098e141.jpeg?region=0,0,600,600"
-              width="500px"
-              height="60px"
+              width="330px"
+              height="70px"
               className="rounded-tl-3xl"
             />
             <div className="pt-8 gap-1">
               <label className="title-profile">Lorem Ipsum</label>
-              <p className="pr-14 text-justify text-4xl">
+              <p className="pr-14 text-justify text-2xl">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Commodi excepturi natus nisi repellendus beatae, voluptatibus
                 pariatur quia a quos aliquam dolore autem vero, totam nemo error

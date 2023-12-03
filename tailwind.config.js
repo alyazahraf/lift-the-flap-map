@@ -7,6 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
+        'primary': '#00000012',
+        'secondary': '#0000004f',
         'gray': '#00000012',
         'button-gray': "#CFCFCF",
         'button-culture': "#0000004f",
