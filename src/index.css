@@ -2,18 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  /* h1 {
-    @apply text-4xl;
-  } */
+.container-1 {
+  @apply py-20 px-16 flex flex-col items-center
 }
 
-@layer components {
-  .container {
-    @apply py-28 px-16 w-screen
-  }
+.container-2 {
+  @apply p-8 rounded-3xl bg-gray gap-6 flex flex-col
+}
 
-  .container-1 {
-    @apply h-screen p-8 rounded-3xl
-  }
+.container-test {
+  @apply px-[10rem] rounded-3xl bg-gray gap-6 flex flex-col
+}
+
+.container-culture {
+  @apply flex flex-row gap-20 bg-button-gray rounded-tl-3xl rounded-tr-3xl
+}
+
+h1 {
+  @apply text-6xl font-bold items-center justify-center flex p-2;
+}
+
+h2 {
+  @apply text-xl font-bold
+}
+
+.title-profile {
+  @apply text-3xl font-bold
+}
+
+.button-culture {
+  @apply flex flex-row bg-button-culture rounded-bl-3xl rounded-br-3xl px-10 py-1 justify-between cursor-pointer items-center
 }
